@@ -76,11 +76,15 @@ vendor-performance-analysis/
 ├── dashboard/                  # Power BI dashboard file
 │   └── vendor_performance_dashboard.pbix
 
+---
+
 ## 🧹 Data Cleaning & Preparation
 Removed transactions with:
 - Gross Profit ≤ 0  
 - Profit Margin ≤ 0  
 - Sales Quantity = 0  
+
+---
 
 Other steps:
 - Created summary tables with vendor-level metrics  
@@ -97,9 +101,13 @@ Other steps:
 - Profit Margin: Min –∞ (sales at zero or below cost)  
 - Unsold Inventory → indicates slow-moving stock  
 
+---
+
 ### 🚩 Outliers Identified
 - High Freight Costs (up to 257K)  
 - Large Purchase/Actual Prices  
+
+---
 
 ### 📈 Correlation Analysis
 - Weak → Purchase Price & Profit  
@@ -146,9 +154,9 @@ python scripts/ingestion_db.py
 # 5️⃣ Explore insights via Power BI Dashboard
 open dashboard/vendor_performance_dashboard.pbix
 
+---
 
-
-## ✅ Final Recommendations
+**## ✅ Final Recommendations
 - Reconsider reliance on top 10 vendors → diversify procurement  
 - Promote high-margin but low-sales brands  
 - Optimize freight costs via new logistics contracts  
