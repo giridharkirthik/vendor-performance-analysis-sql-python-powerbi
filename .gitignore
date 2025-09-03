@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+logs/
+__pycache__/
+inventory/
+vendor_sales_summary/
+__MACOSX/
+data/
