@@ -34,12 +34,11 @@ A complete data pipeline was built using:
 Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. Companies need to ensure that **they are not incurring losses due to inefficient pricing, poor inventory turnover, or vendor dependency.
 
 This project aims to:  
-- Identify underperforming brands needing pricing or promotional adjustments  
-- Determine vendor contributions to sales and profits  
-- Analyze the cost-benefit of bulk purchasing  
-- Investigate inventory turnover inefficiencies  
-- Statistically validate differences in vendor profitability  
-
+1. Identify underperforming brands that require promotional or pricing adjustments. 
+2. Determine top vendors contributing to sales and gross profit.
+3. Analyze the impact of bulk purchasing on unit costs. (how much cost for each item)
+4. Assess inventory turnover to reduce holding costs and improve efficiency.(how much inventory is stored and how much we sold)
+5. Investigate the profitability variance between high-performing and low-performing vendors.
 ---
 
 ## 📂 Dataset
