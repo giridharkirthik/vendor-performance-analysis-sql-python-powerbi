@@ -31,7 +31,7 @@ A complete data pipeline was built using:
 ---
 
 ## 🎯 Business Problem
-Effective inventory and sales management are critical in the retail sector.  
+Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. Companies need to ensure that **they are not incurring losses due to inefficient pricing, poor inventory turnover, or vendor dependency.
 
 This project aims to:  
 - Identify underperforming brands needing pricing or promotional adjustments  
